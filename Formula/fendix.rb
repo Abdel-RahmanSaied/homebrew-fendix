@@ -17,20 +17,20 @@ class Fendix < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Abdel-RahmanSaied/homebrew-fendix/releases/download/v#{version}/fendix-v#{version}-darwin-arm64"
-      sha256 "cde581daf64bc36a3bb3aa4671a0a0fa402c30a9997c287b3149a9a0b032ee73"
+      sha256 "f597d44ce1e3d1084da1ef32a2c1704b587f56058dda4dfab51fafda422f31d1"
     else
       url "https://github.com/Abdel-RahmanSaied/homebrew-fendix/releases/download/v#{version}/fendix-v#{version}-darwin-amd64"
-      sha256 "327ede9d0dc7421e7170643f133a86936a764715f31838f8e2ed2cbf5e706c61"
+      sha256 "946da4d15bf31609afb1a4bb764c89aad1a32d270f1b08cabcd93d1573fe0342"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Abdel-RahmanSaied/homebrew-fendix/releases/download/v#{version}/fendix-v#{version}-linux-arm64"
-      sha256 "9c89a06cc03042313552837aeab227eda5c31a2a7d0525502a37b0f78b21f533"
+      sha256 "352b935095921e621d3b4a449fb6c3cac4c7987ad2aaaea0f993e363c253081e"
     else
       url "https://github.com/Abdel-RahmanSaied/homebrew-fendix/releases/download/v#{version}/fendix-v#{version}-linux-amd64"
-      sha256 "c459ad03cf86b325080387b84528302d215d0c559c977e520666e85465eb8ff1"
+      sha256 "ef581d3c0a39b974595aadca5c52a2ee6463c7c632ea643f8ee29e92b52de036"
     end
   end
 
